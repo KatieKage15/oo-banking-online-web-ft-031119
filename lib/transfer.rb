@@ -9,5 +9,9 @@ class Transfer
     @amount = amount
   end
 
+  def valid?
+    send.valid? && receiver.valid?
+  end
+  
 
 end
