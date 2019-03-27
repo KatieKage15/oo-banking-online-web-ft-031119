@@ -12,6 +12,6 @@ class Transfer
   def valid?
     send.valid? && receiver.valid?
   end
-  
+
 
 end
